@@ -1,0 +1,34 @@
+{
+    "syntax.highlightTerms": [
+
+        "type",
+        "scope",
+        "function",
+        "variable",
+        "number",
+        "string",
+        "comment",
+        "constant",
+        "directive",
+        "control",
+        "operator",
+        "modifier",
+        "punctuation"
+    ],
+    "syntax.highlightLanguages": [
+        
+        "c",
+        "cpp",
+        "python",
+        "typescript",
+        "typescriptreact",
+        "javascript",
+        "go",
+        "rust",
+        "php",
+        "ruby",
+        "shellscript",
+        "ocaml",
+        "lua"
+    ]
+}
