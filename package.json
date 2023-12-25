@@ -1,0 +1,31 @@
+{
+  "name": "jaanlang",
+  "displayName": "JaanLang",
+  "description": "JaanLang Language Support",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "publisher": "JaanLang",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jaan",
+      "aliases": ["JaanLang", "jaan"],
+      "extensions": [".jaan"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jaan",
+      "scopeName": "source.jaan",
+      "path": "./syntaxes/jaan.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "jaan",
+      "path": "./snippets/jaan.json"
+    }]
+  }
+}

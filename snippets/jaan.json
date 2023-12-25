@@ -1,0 +1,23 @@
+{
+    "Entry Point": {
+        "prefix": "!!",
+        "body": ["hi jaan\n\t$1\nbye jaan"],
+        "description": "Entry point of the program"
+    },
+    "Print Statement": {
+      "prefix": "bolo",
+      "body": ["bolo \"$1\";"],
+      "description": "Print statement"
+    },
+    "Declare Variable": {
+      "prefix": "dhoro",
+      "body": ["dhoro $1 holo $2;"],
+      "description": "Declare a variable"
+    },
+    "Conditional Statement": {
+      "prefix": "jodi",
+      "body": ["jodi $1", "\t$2", "bujhso?"],
+      "description": "Conditional statement"
+    }
+}
+  
