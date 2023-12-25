@@ -12,20 +12,51 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "jaan",
-      "aliases": ["JaanLang", "jaan"],
-      "extensions": [".jaan"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "jaan",
-      "scopeName": "source.jaan",
-      "path": "./syntaxes/jaan.tmLanguage.json"
-    }],
-    "snippets": [{
-      "language": "jaan",
-      "path": "./snippets/jaan.json"
-    }]
-  }
+    "languages": [
+      {
+        "id": "jaan",
+        "aliases": [
+          "JaanLang",
+          "jaan"
+        ],
+        "extensions": [
+          ".jaan"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jaan",
+        "scopeName": "source.jaan",
+        "path": "./syntaxes/jaan.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "jaan",
+        "path": "./snippets/jaan.json"
+      }
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsfuad/JaanLangSyntaxHighter.git"
+  },
+  "keywords": [
+    "JaanLang",
+    "Programming",
+    "Language",
+    "Fun"
+  ],
+  "author": "Fuad Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsfuad/JaanLangSyntaxHighter/issues"
+  },
+  "homepage": "https://github.com/itsfuad/JaanLangSyntaxHighter#readme"
 }

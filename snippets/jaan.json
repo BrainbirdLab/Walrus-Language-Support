@@ -1,6 +1,6 @@
 {
     "Entry Point": {
-        "prefix": "!!",
+        "prefix": "hi",
         "body": ["hi jaan\n\t$1\nbye jaan"],
         "description": "Entry point of the program"
     },
