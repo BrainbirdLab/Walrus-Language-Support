@@ -6,12 +6,12 @@
     },
     "Print Statement": {
       "prefix": "bolo",
-      "body": ["bolo \"$1\";"],
+      "body": ["bolo \"$1"],
       "description": "Print statement"
     },
     "Declare Variable": {
       "prefix": "dhoro",
-      "body": ["dhoro $1 holo $2;"],
+      "body": ["dhoro $1 holo $2"],
       "description": "Declare a variable"
     },
     "Conditional Statement": {
