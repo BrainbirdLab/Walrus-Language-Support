@@ -4,4 +4,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
+- Added Code snippets support v.0.0.2
+
 - Initial release v.0.0.1

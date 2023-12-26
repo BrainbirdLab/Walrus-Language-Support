@@ -16,7 +16,7 @@
     },
     "Conditional Statement": {
       "prefix": "jodi",
-      "body": ["jodi $1", "\t$2", "bujhso?"],
+      "body": ["jodi $1", "\t$2", "kichu bolar nai"],
       "description": "Conditional statement"
     }
 }
