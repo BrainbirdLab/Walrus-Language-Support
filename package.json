@@ -2,9 +2,11 @@
   "name": "jaanlang",
   "displayName": "JaanLang",
   "description": "JaanLang Language Support",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "icon.png",
   "publisher": "JaanLang",
+  "activationEvents": [
+  ],
   "engines": {
     "vscode": "^1.85.0"
   },
