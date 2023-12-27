@@ -2,7 +2,7 @@
   "name": "jaanlang",
   "displayName": "JaanLang",
   "description": "JaanLang Language Support",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "icon": "icon.png",
   "publisher": "JaanLang",
   "activationEvents": [

@@ -55,7 +55,7 @@
 		},
 		"conditionalKeywords": {
 			"name": "keyword.control.jaan",
-			"match": "\\b(?:hi\\sjaan|bye\\sjaan|jodi|tahole|nahole|kichu\\sbolar\\snai|bar)\\b"
+			"match": "\\b(?:hi\\sjaan|bye\\sjaan|jodi|tahole|nahole|huh|bar|and|or)\\b"
 		},
 		"functions": {
 			"name": "entity.name.function.jaan",
