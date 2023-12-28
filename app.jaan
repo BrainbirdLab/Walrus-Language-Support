@@ -1,0 +1,20 @@
+hi jaan
+    # This is a comment
+    dhoro amarId holo "fuad-123"
+    dhoro amarNam holo "Fuad"
+
+    dhoro amrAge holo 23
+
+    amrAge jodi 23 er beshi hoy tahole
+        bolo "You are old enough to marry me"
+    nahole amrAge jodi 23 na hoy tahole
+        bolo "Arektu wait koro"
+    nahole
+        bolo "Dhuru picci"
+    huh
+
+    10 bar
+        bolo "Sorry Jaan " + $
+    huh
+
+bye jaan

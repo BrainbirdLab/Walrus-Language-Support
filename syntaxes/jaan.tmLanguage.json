@@ -40,7 +40,7 @@
 		},
 		"operator-logical": {
 			"name": "support.function.jaan",
-			"match": "\\b(?:na\\shoy|hoy|theke\\sbeshi|theke\\skom|holo|er)\\b"
+			"match": "\\b(?:na hoy|hoy|er beshi na hoy|er kom na hoy|er beshi hoy|er kom hoy|er soman na hoy|er soman hoy)\\b"
 		},
 		"reservedKeywords": {
 			"name": "keyword.reserved.jaan",
@@ -48,7 +48,7 @@
 		},
 		"conditionalKeywords": {
 			"name": "keyword.control.jaan",
-			"match": "\\b(?:hi\\sjaan|bye\\sjaan|jodi|tahole|nahole|huh|bar|and|or)\\b"
+			"match": "\\b(?:hi jaan|bye jaan|jodi|tahole|nahole|huh|bar|and|or)\\b"
 		},
 		"functions": {
 			"name": "entity.name.function.jaan",
@@ -66,11 +66,15 @@
 		},
 		"variables": {
 			"name": "variable.constant.jaan",
-			"match": "\\b(?:[a-zA-Z0-9_]+)\\b"
+			"match": "\\b(?:[a-zA-Z0-9_$]+)\\b"
 		},
 		"numbers": {
 			"name": "constant.numeric.jaan",
 			"match": "\\b(?:-?\\d+(?:\\.\\d+)?)\\b"
+		},
+		"symbols": {
+			"name": "punctuation.definition.symbol.jaan",
+			"match": "\\b(?:\\+|-|\\*|/|\\^|\\(|\\)|\\{|\\}|\\[|\\]|<|>|=|,|;|:|\\.)\\b"
 		}
 	}
 }
