@@ -8,9 +8,6 @@
 			"include": "#numbers"
 		},
 		{
-			"include": "#operators-symbol"
-		},
-		{
 			"include": "#operator-logical"
 		},
 		{
@@ -41,13 +38,9 @@
 				}
 			]
 		},
-		"operators-symbol": {
-			"name": "support.function.jaan",
-			"match": "\\b(?:<|>|==|!=|<=|>=|===|!==|&&|\\|\\||!)\\b"
-		},
 		"operator-logical": {
 			"name": "support.function.jaan",
-			"match": "\\b(?:na\\shoy|hoy|theke\\sbeshi|theke\\skom|holo)\\b"
+			"match": "\\b(?:na\\shoy|hoy|theke\\sbeshi|theke\\skom|holo|er)\\b"
 		},
 		"reservedKeywords": {
 			"name": "keyword.reserved.jaan",
