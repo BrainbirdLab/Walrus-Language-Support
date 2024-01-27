@@ -16,7 +16,7 @@
     },
     "Conditional Statement": {
       "prefix": "jodi",
-      "body": ["$1 jodi $2 tahole\n\t$3\nkichu bolar nai"],
+      "body": ["$1 jodi $2 tahole\n\t$3\nhuh"],
       "description": "Conditional statement"
     }
 }
