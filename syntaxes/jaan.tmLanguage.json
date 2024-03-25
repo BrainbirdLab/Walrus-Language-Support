@@ -48,7 +48,7 @@
 		},
 		"conditionalKeywords": {
 			"name": "keyword.control.jaan",
-			"match": "\\b(?:hi jaan|bye jaan|jodi|tahole|nahole|huh|bar|and|or|holo|wait koro)\\b"
+			"match": "\\b(?:hi jaan|bye jaan|jodi|tahole|nahole|huh|bar|and|or|holo|wait koro|dhore)\\b"
 		},
 		"functions": {
 			"name": "entity.name.function.jaan",
