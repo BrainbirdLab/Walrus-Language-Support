@@ -2,7 +2,7 @@
   "name": "jaanlang",
   "displayName": "JaanLang",
   "description": "JaanLang Language Support",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "icon": "icon.png",
   "publisher": "JaanLang",
   "activationEvents": [],
@@ -23,7 +23,11 @@
         "extensions": [
           ".jaan"
         ],
-        "configuration": "./language-configuration.json"
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "dark": "icon.png",
+          "light": "icon.png"
+        }
       }
     ],
     "grammars": [

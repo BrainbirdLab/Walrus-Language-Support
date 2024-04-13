@@ -13,8 +13,8 @@ hi jaan
         bolo "Dhuru picci"
     huh
 
-    10 bar
-        bolo "Sorry Jaan " + $
+    10 bar i dhore
+        bolo "Sorry Jaan " + i
     huh
 
 bye jaan
