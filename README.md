@@ -1,1 +1,1 @@
-# Syntax highlighter for xLang
+# Syntax highlighter for rexLang
