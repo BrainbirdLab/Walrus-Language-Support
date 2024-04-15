@@ -1,5 +1,5 @@
 {
-	"scopeName": "source.x",
+	"scopeName": "source.rex",
 	"patterns": [
 		{
 			"include": "#comments"
@@ -33,57 +33,57 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.line.x",
+					"name": "comment.line.rex",
 					"match": "(?:\\s*\\/\\/).*?(?=$|\n)"
 				},
 				{
-					"name": "comment.block.x",
+					"name": "comment.block.rex",
 					"begin": "\\/\\*",
 					"end": "\\*\\/",
 					"captures": {
 						"0": {
-							"name": "comment.block.x"
+							"name": "comment.block.rex"
 						}
 					}
 				}
 			]
 		},		
 		"operator-logical": {
-			"name": "keyword.operator.logical.x",
-			"match": "\\b(?:and|or|not)\\b"
+			"name": "keyword.operator.logical.rex",
+			"match": "\\b(?:and|or|not|is|not|isnt)\\b"
 		},
 		"reservedKeywords": {
-			"name": "keyword.reserved.x",
-			"match": "\\b(?:let|const|ret|fn|in|is)\\b"
+			"name": "keyword.reserved.rex",
+			"match": "\\b(?:let|const|ret|fn|in)\\b"
 		},
 		"conditionalKeywords": {
-			"name": "keyword.control.x",
+			"name": "keyword.control.rex",
 			"match": "\\b(?:if|elf|els|for|foreach|while|do)\\b"
 		},
 		"functions": {
-			"name": "entity.name.function.x",
+			"name": "entity.name.function.rex",
 			"match": "\\b(?:print)\\b"
 		},
 		"strings-single": {
-			"name": "string.quoted.single.x",
+			"name": "string.quoted.single.rex",
 			"begin": "'",
 			"end": "'"
 		},
 		"strings-double": {
-			"name": "string.quoted.double.x",
+			"name": "string.quoted.double.rex",
 			"begin": "\"",
 			"end": "\""
 		},
 		"variables": {
-			"name": "variable.constant.x",
+			"name": "variable.constant.rex",
 			"match": "\\b(?:[a-zA-Z0-9_$]+)\\b"
 		},
 		"numbers": {
-			"name": "constant.numeric.x",
+			"name": "constant.numeric.rex",
 			"match": "\\b(?:-?\\d+(?:\\.\\d+)?)\\b"
 		},
 		"symbols": {
-			"name": "punctuation.definition.symbol.x",
+			"name": "punctuation.definition.symbol.rex",
 			"match": "\\b(?:\\+|-|\\*|/|\\^|\\(|\\)|\\{|\\}|\\[|\\]|<|>|=|,|;|:|\\.)\\b"
 		}
 	}

@@ -1,10 +1,10 @@
 {
-  "name": "xlang",
-  "displayName": "Axe Lang",
-  "description": "xLang Language Support",
+  "name": "rexlang",
+  "displayName": "rex Lang",
+  "description": "rex Lang Language Support",
   "version": "0.0.1",
   "icon": "icon.png",
-  "publisher": "xLang",
+  "publisher": "RexLang",
   "activationEvents": [],
   "engines": {
     "vscode": "^1.85.0"
@@ -17,12 +17,12 @@
       {
         "id": "x",
         "aliases": [
-          "xLang",
-          "x"
+          "rexLang",
+          "rex"
         ],
         "extensions": [
-          ".x",
-          ".axe"
+          ".rex",
+          ".rex"
         ],
         "configuration": "./language-configuration.json",
         "icon": {
@@ -33,15 +33,15 @@
     ],
     "grammars": [
       {
-        "language": "x",
-        "scopeName": "source.x",
-        "path": "./syntaxes/jaan.tmLanguage.json"
+        "language": "rex",
+        "scopeName": "source.rex",
+        "path": "./syntaxes/rex.tmLanguage.json"
       }
     ],
     "snippets": [
       {
         "language": "x",
-        "path": "./snippets/x.json"
+        "path": "./snippets/rex.json"
       }
     ]
   },
@@ -50,7 +50,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "xLang",
+    "rexLang",
     "Programming",
     "Language"
   ],
