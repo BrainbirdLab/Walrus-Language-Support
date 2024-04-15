@@ -1,8 +1,8 @@
 {
-  "name": "rexlang",
-  "displayName": "rex Lang",
-  "description": "rex Lang Language Support",
-  "version": "0.0.1",
+  "name": "rex",
+  "displayName": "Rex Lang",
+  "description": "Rex Lang Language Support",
+  "version": "0.0.3",
   "icon": "icon.png",
   "publisher": "RexLang",
   "activationEvents": [],
@@ -15,7 +15,7 @@
   "contributes": {
     "languages": [
       {
-        "id": "x",
+        "id": "rex",
         "aliases": [
           "rexLang",
           "rex"
@@ -40,7 +40,7 @@
     ],
     "snippets": [
       {
-        "language": "x",
+        "language": "rex",
         "path": "./snippets/rex.json"
       }
     ]

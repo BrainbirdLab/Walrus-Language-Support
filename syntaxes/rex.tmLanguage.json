@@ -50,11 +50,11 @@
 		},		
 		"operator-logical": {
 			"name": "keyword.operator.logical.rex",
-			"match": "\\b(?:and|or|not|is|not|isnt)\\b"
+			"match": "\\b(?:and|or)\\b"
 		},
 		"reservedKeywords": {
 			"name": "keyword.reserved.rex",
-			"match": "\\b(?:let|const|ret|fn|in)\\b"
+			"match": "\\b(?:let|const|ret|fn|in|not|is|not|isnt)\\b"
 		},
 		"conditionalKeywords": {
 			"name": "keyword.control.rex",
