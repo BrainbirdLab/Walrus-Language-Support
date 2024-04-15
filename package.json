@@ -1,10 +1,10 @@
 {
-  "name": "jaanlang",
-  "displayName": "JaanLang",
-  "description": "JaanLang Language Support",
-  "version": "0.1.1",
+  "name": "xlang",
+  "displayName": "Axe Lang",
+  "description": "xLang Language Support",
+  "version": "0.0.1",
   "icon": "icon.png",
-  "publisher": "JaanLang",
+  "publisher": "xLang",
   "activationEvents": [],
   "engines": {
     "vscode": "^1.85.0"
@@ -15,13 +15,14 @@
   "contributes": {
     "languages": [
       {
-        "id": "jaan",
+        "id": "x",
         "aliases": [
-          "JaanLang",
-          "jaan"
+          "xLang",
+          "x"
         ],
         "extensions": [
-          ".jaan"
+          ".x",
+          ".axe"
         ],
         "configuration": "./language-configuration.json",
         "icon": {
@@ -32,15 +33,15 @@
     ],
     "grammars": [
       {
-        "language": "jaan",
-        "scopeName": "source.jaan",
+        "language": "x",
+        "scopeName": "source.x",
         "path": "./syntaxes/jaan.tmLanguage.json"
       }
     ],
     "snippets": [
       {
-        "language": "jaan",
-        "path": "./snippets/jaan.json"
+        "language": "x",
+        "path": "./snippets/x.json"
       }
     ]
   },
@@ -48,20 +49,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/itsfuad/JaanLangSyntaxHighter.git"
-  },
   "keywords": [
-    "JaanLang",
+    "xLang",
     "Programming",
-    "Language",
-    "Fun"
+    "Language"
   ],
   "author": "Fuad Hasan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itsfuad/JaanLangSyntaxHighter/issues"
-  },
-  "homepage": "https://github.com/itsfuad/JaanLangSyntaxHighter#readme"
+  "license": "ISC"
 }
