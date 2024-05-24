@@ -1,10 +1,10 @@
 {
-  "name": "rex",
-  "displayName": "Rex Lang",
-  "description": "Rex Lang Language Support",
-  "version": "0.0.3",
+  "name": "walrus",
+  "displayName": "Walrus",
+  "description": "Walrus Language Support",
+  "version": "1.0.0",
   "icon": "icon.png",
-  "publisher": "RexLang",
+  "publisher": "Walrus",
   "activationEvents": [],
   "engines": {
     "vscode": "^1.85.0"
@@ -12,17 +12,21 @@
   "categories": [
     "Programming Languages"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrainbirdLab/Rex-Language-Support"
+  },
   "contributes": {
     "languages": [
       {
-        "id": "rex",
+        "id": "walrus",
         "aliases": [
-          "rexLang",
-          "rex"
+          "walrusLang",
+          "walrus"
         ],
         "extensions": [
-          ".rex",
-          ".rex"
+          ".wal",
+          ".walrus"
         ],
         "configuration": "./language-configuration.json",
         "icon": {
@@ -33,15 +37,15 @@
     ],
     "grammars": [
       {
-        "language": "rex",
-        "scopeName": "source.rex",
-        "path": "./syntaxes/rex.tmLanguage.json"
+        "language": "walrus",
+        "scopeName": "source.wal",
+        "path": "./syntaxes/wal.tmLanguage.json"
       }
     ],
     "snippets": [
       {
-        "language": "rex",
-        "path": "./snippets/rex.json"
+        "language": "walrus",
+        "path": "./snippets/walrus.json"
       }
     ]
   },
@@ -50,7 +54,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "rexLang",
+    "Walrus",
     "Programming",
     "Language"
   ],
