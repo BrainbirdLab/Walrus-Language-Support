@@ -1,1 +1,1 @@
-# Syntax highlighter for rexLang
+# Syntax highlighter for walrus
